@@ -1,0 +1,347 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* SLIDER CUSTOM CSS */
+.slick-slider img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .slick-dots li button:before {
+    color: #6a1b9a;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #6a1b9a;
+  }
+  
+
+body{
+    font-family: "Poppins", sans-serif !important;
+}
+
+li{
+    list-style: none;
+}
+.header-logo{
+    width: 240px;
+}
+.nav-item .nav-link{
+    color: #c90286;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all ease-in-out .2s;
+    position: relative;
+}
+.nav-item{
+    padding: 13px 20px;
+}
+.nav-item .nav-link.active{
+    color: #c90286 !important;
+}
+.nav-item .nav-link:hover{ 
+    color: #c90286 !important;
+}
+
+.navbar-nav .nav-item .nav-link::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #c90286;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    transition: all ease-in-out 0.5s;
+  }
+  .navbar-nav .nav-item .nav-link:hover:before {
+    width: 100%;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+
+  .slick-next.slick-arrow{
+    position: absolute;
+    right: 50px;
+  }
+  .slick-prev.slick-arrow{
+    position: absolute;
+    left: 50px;
+    z-index: 999;
+  }
+
+  .slick-slide{
+    position: relative;
+  }
+  .slick-dots{
+    display: none !important;
+  }
+
+  .bread-crumb{
+    top: 30px;
+    left: 40px;
+  }
+
+
+  .breadcrumb-item+.breadcrumb-item::before{
+    color: #d2d2cf !important;
+  }
+
+  .breadcrumb-item a{
+    color: #d2d2cf;
+    text-decoration: none;
+  }
+  .breadcrumb-item.active{
+    color: white !important;
+  }
+
+  .breadcrumb-item a:hover{
+    color: #c90286;
+  }
+
+  .hero-btn{
+    bottom: 50px;
+    left: 60px;
+  }
+  .gallery-btn{
+   
+    background-color: White;
+    color: black;
+    border: 0;
+    transition: all ease-in-out .5s;
+    }
+   
+    .gallery-btn:hover{
+        background-color: #c90286;
+        color: #fff;
+    }
+    
+
+    .entry-title{
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .duration-days{
+        display: block;
+        background: #c90286;
+        border: 2px solid #c90286;
+        border-radius: 4px;
+        width: 70px;
+    }
+    .duration{
+        display: block;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #fff;
+    padding: 0 5px;
+    min-width: 50px;
+    height: 50px;
+    text-align: center;
+    }
+    .days{
+        display: block;
+    text-align: center;
+    background: white;
+    border-radius: 0 0 4px 4px;
+    font-size: 14px;
+    line-height: 20px;
+    }
+
+    .trip-content{
+        font-size: 20px;
+    }
+
+    .svg-icon{
+        color: #c90286;
+    }
+
+    .trip-info{
+        box-shadow: 0 4px 4px rgba(28, 32, 17, .02), 0 4px 40px rgba(28, 32, 17, .04);
+        border-radius: 4px;
+       
+    }
+    .trip-more-info{
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .check-icon{
+        color: #c90286;
+    }
+    .check-icon2{
+        color: #07931c;
+    }
+
+    .cross-icon{
+        color: red;
+    }
+    .trip-info-sections{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 32px 24px;
+        
+    }
+
+    .toggle-btn{
+        padding: 7px 14px;
+    border: 1px solid #e8e9e7;
+    border-radius: 4px;
+    }
+
+    .form-check-input:checked {
+        background-color:#c90286 !important;
+        border-color: #c90286 !important;
+    }
+    .form-check-input{
+        padding: 10px 20px;
+    }
+
+    .form-check-input:focus {
+        border-color: #c90286 !important;
+        outline: 0;
+        box-shadow: none !important;
+    }
+
+
+    .trip-days-info::before{
+        position: absolute;
+        content: "\f3c5";
+        font-size: 20px;
+        font-family: "Font Awesome 6 Free"; 
+        font-weight: 900; 
+        color: #fff;
+        background-color: #c90286;
+        border-radius: 50%;
+        z-index: 1;
+        border: 0;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: -12px;
+}
+        .trip-days-info::after{
+            position: absolute;
+            content: "\f024";
+            font-size: 20px;
+            font-family: "Font Awesome 6 Free"; 
+            font-weight: 900; 
+            color: #fff;
+            background-color: #c90286;
+            border-radius: 50%;
+            z-index: 1;
+            border: 0;
+            height: 40px;
+            width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            left: -12px;
+            bottom: 0;
+        }
+
+
+.accordion{
+    margin-left: 40px;
+    --bs-accordion-border-radius: none !important;
+}
+
+
+.accordion-border::after{
+   
+    content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 9px; 
+  border-left: 2px dashed #c90286; 
+  transform: translateX(-50%); 
+}
+
+.accordion-item{
+   
+    border: 0 !important;
+    border-bottom: 1px solid rgba(4,15,26,.1) !important;
+}
+
+.accordion-button{
+    background-color: transparent !important;
+    font-size: 18px;
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+}
+
+.inclueded{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-us-heading{
+    font-size: 25px;
+    font-weight: 500;
+}
+.form-control,.form-select{
+    background-color: #fcfcfc !important;
+}
+.form-control,.form-select::placeholder{
+    font-size: 14px;
+    
+}
+.form-control,.form-select:focus{
+    box-shadow: none !important;
+    border-color: #dee2e6 !important;
+
+}
+
+.btn1{
+    background-color: #e48e45;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+}
+.check-btn{
+    background-color: #e48e45;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+}
+
+.send-message{
+    color: #c90286;
+    text-decoration: none;
+}
+
+
+@media (max-width:400px) {
+    .header-logo{
+        width: 150px;
+    }
+    .slick-slider img{
+        height: 200px;
+    }
+    
+}
+
+
+@media (max-width:600px) {
+    
+    .slick-slider img{
+        height: 250px;
+    }
+    .hero-btn{
+        bottom: 25px;
+        left: 60px;
+      }
+      .entry-title{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+}
